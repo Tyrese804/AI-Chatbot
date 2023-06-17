@@ -1,0 +1,33 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]},
+    
+    {"tag": "goodbye",
+    "patterns": ["see you later", "i gotta go", "bye", "goodbye", "I have to go", "have a good day", "cya"],
+    "responses": ["Talk to you later!", "Goodbye!", "Have a great day!"]},
+
+    {"tag": "age",
+    "patterns": ["how old", "how old is tyrese", "what is your age", "how old are you", "age", "what's up?", "how is it going"],
+    "responses": ["Tyrese is 20 years old.", "20 years old!"]},
+
+    {"tag": "name",
+    "patterns": ["what is your name", "what do i call you", "who are you?", "what should I call you?"],
+    "responses": ["You can call me Titan!", "I'm Titan", "I'm Titan, the assistant of Tyrese"]},
+
+    {"tag": "school",
+    "patterns": ["where do you go to school?", "what year are you?", "who are you?", "what university do you go to?", "What grade are you in"],
+    "responses": ["Tyrese goes to Virginia Commonwealth University and is a junior!", "Tyrese is a junior at VCU!", "He's a junior at Virginia Commonwealth University."]},
+
+    {"tag": "major",
+    "patterns": ["what is your major?", "what are you studying", "what is his major?"],
+    "responses": ["Computer science.", "Computer science with a concentration in software engineering", "Tyrese's major is computer science!"]},
+
+    {"tag": "hobbies",
+    "patterns": ["what do you like to do", "what are your hobbies", "what are your interests outside of school?", "what activities do you like to do"],
+    "responses": ["Tyrese likes to play basketball, workout, and play videogames!", "He likes to play basketball.", "Tyrese goes to the gym to workout in his free time", "Tyrese plays videogames in his free time!"]},
+
+    {"tag": "experiences",
+    "patterns": ["Have you done any internships?", "what are your prior experiences", "Have you completed any interships", "Have you worked with any research teams?", "work"],
+    "responses": ["Tyrese is currently working as a research assistant.", "Tyrese has been a research assistant since May 2023.", "He's a research assistant in VCU's engineering department!"]}
+]}
